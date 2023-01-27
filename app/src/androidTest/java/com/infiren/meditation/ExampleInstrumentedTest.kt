@@ -1,4 +1,4 @@
-package com.example.meditation
+package com.infiren.meditation
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.example.meditation
+package com.infiren.meditation
 
 import org.junit.Test
 

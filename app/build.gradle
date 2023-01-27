@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.meditation'
-    compileSdk 33
+    compileSdk 28
 
     defaultConfig {
         applicationId "com.example.meditation"

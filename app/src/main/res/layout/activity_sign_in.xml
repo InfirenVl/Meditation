@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/signin_background"
-    tools:context="com.infiren.meditation.SignInActivity">
+    tools:context="com.example.meditation.SignInActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -48,6 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
         tools:ignore="MissingConstraints" />
 
     <EditText

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainbackground"
-    tools:context="com.infiren.meditation.MainActivity">
+    tools:context="com.example.meditation.MainActivity">
 
 
     <ImageView
@@ -35,7 +35,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/ButtonEnterInAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/button_green"
@@ -61,7 +61,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatButton"
+        app:layout_constraintTop_toTopOf="@+id/ButtonEnterInAccount"
         app:layout_constraintVertical_bias="0.503"
         tools:ignore="MissingConstraints" />
 
@@ -73,7 +73,7 @@
         android:layout_marginBottom="80dp"
         android:textAlignment="center"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/appCompatButton"
+        app:layout_constraintBottom_toTopOf="@+id/ButtonEnterInAccount"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textPrivet" />
@@ -82,14 +82,14 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
         android:text="Зарегистрируйтесь"
         android:textColor="@color/blue_lagoon"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="50dp"
-        android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatButton"
+        app:layout_constraintTop_toTopOf="@+id/ButtonEnterInAccount"
         app:layout_constraintVertical_bias="0.503"
         tools:ignore="MissingConstraints" />
 

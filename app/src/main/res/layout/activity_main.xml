@@ -23,6 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Привет"
+        android:textStyle="bold"
         android:textAllCaps="true"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -40,8 +41,9 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_green"
         android:text="Войти в аккаунт"
-        android:paddingStart="95dp"
-        android:paddingEnd="95dp"
+        android:paddingStart="90dp"
+        android:paddingEnd="90dp"
+        android:textSize="17sp"
         android:onClick="next"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -59,10 +61,10 @@
         android:text="Еще нет аккаунта?"
         android:textColor="@color/white"
         android:textStyle="bold"
+        android:layout_marginTop="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/ButtonEnterInAccount"
-        app:layout_constraintVertical_bias="0.503"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -70,7 +72,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Наслаждайся учебой\nБудь внимателен\nДелай хорошо"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="30dp"
         android:textAlignment="center"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/ButtonEnterInAccount"
@@ -82,15 +84,15 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="69dp"
         android:text="Зарегистрируйтесь"
+        android:layout_marginTop="90dp"
         android:textColor="@color/blue_lagoon"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="@+id/ButtonEnterInAccount"
-        app:layout_constraintVertical_bias="0.503"
         tools:ignore="MissingConstraints" />
 
 

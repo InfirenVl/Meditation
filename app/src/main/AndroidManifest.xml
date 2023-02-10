@@ -11,7 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Meditation"
         tools:targetApi="31">
-
+        <activity
+            android:name=".ContentActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />

@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green_sapphire">#89AC99</color>
     <color name="blue_lagoon">#01FFD1</color>
+    <color name="dark_green">#162616</color>
+    <color name="light_green">#263F26</color>
 </resources>
